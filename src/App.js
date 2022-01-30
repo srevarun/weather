@@ -20,12 +20,7 @@ function App() {
     }
   }
 
-  const setValue = (e) => {
-    if (e.key === "Enter") {
-      setQuery(e.target.value);
-      console.log(e.target.value);
-    }
-  };
+ 
 
   const dateBuilder = (d) => {
     let months = [
