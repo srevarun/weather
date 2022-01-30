@@ -21,7 +21,7 @@ function App() {
   }
 
   const setValue = (e) => {
-    if (e.key == "Enter") {
+    if (e.key === "Enter") {
       setQuery(e.target.value);
       console.log(e.target.value);
     }
